@@ -1,10 +1,11 @@
 body{
+    margin: 0;
     font-family: 'Ubuntu', sans-serif;
 }
 h1 {
     font-size: 50px;
 }
-.name-title{
+.orange-focus{
     color: orange;
 }
 .half-width{
@@ -12,8 +13,80 @@ h1 {
     float: left;
     margin-left: 5%;
     padding-left: 2%;
+    padding-right: 1%;
 }
-
 .half-width img{
     width: 100%;
+}
+.top-bg{
+    background-image: url(./images/top-bg.png);
+    background-repeat: no-repeat;
+}
+section{
+    height: 500px;
+}
+.btn-hire{
+    display: inline-block;
+    margin-top: 8px;
+    text-decoration: none;
+    background-image: linear-gradient(45deg, lightsalmon, tomato);
+    font-weight: 500;
+    color: white;
+    padding: 10px 35px;
+    border-radius: 8px;
+}
+/* banner part 02 */
+
+p{
+    color: rgb(100, 100, 100);
+    line-height: 23px;
+}
+
+.half-width h2{
+    font-size: 35px;
+}
+.btn-resume{
+    display: inline-block;
+    text-decoration: none;
+    border-radius: 8px;
+    font-weight: 500;
+    color: white;
+    background-image: linear-gradient(30deg, lightsalmon, tomato);
+    padding: 10px 25px;
+    margin-top: 10px;
+}
+.banner-bg-02{
+    background-image: url(./images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.experi-subtitle{
+    color: orange;
+}
+.ex{
+    font-size: 30px;
+}
+.box-design{
+    box-shadow: 10px 10px 45px grey;
+    border-radius: 8px;
+    height: 70%;
+}
+
+.experience-sec{
+    background-image: url("./images/exp-bg.png");
+    background-repeat: no-repeat;
+    background-position: left;
+}
+#border-left-01{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, lightsalmon, tomato);
+    border-image-slice: 1;
+}
+#border-left-02{
+    border-left: 7px solid;
+    border-image: linear-gradient(15deg, rgb(39, 194, 255), blue);
+    border-image-slice: 1;
+}
+footer{
+    text-align: center;
 }
